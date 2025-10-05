@@ -1,9 +1,15 @@
 <template>
     <div class="bottom-bar_container">
         <div class="bottom-bar">
-            <img class="bottom-bar_button" src="../assets/img/trivia-icon.png" alt="trivia-icon">
-            <img class="bottom-bar_button" src="../assets/img/home-icon.png" alt="home-icon">
-            <img id="profile-icon" class="bottom-bar_button" src="../assets/img/user-icon.png" alt="user-icon">
+            <router-link to="/trivia">
+                <img class="bottom-bar_button" src="../assets/img/trivia-icon.png" alt="trivia-icon">
+            </router-link>
+            <router-link to="/climate">
+                <img class="bottom-bar_button" src="../assets/img/cloud-icon.png" alt="home-icon">
+            </router-link>
+            <router-link to="/profile">
+                <img id="profile-icon" class="bottom-bar_button" src="../assets/img/user-icon.png" alt="user-icon">
+            </router-link>
         </div>
     </div>
 </template>

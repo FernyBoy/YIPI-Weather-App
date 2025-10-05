@@ -1,11 +1,11 @@
 <template>
-    <div class="splash-screen">
-        <BottomBar />
+    <div class="splash-screen_contaier">
+
     </div>
 </template>
 
 <script setup lang="ts">
-import BottomBar from '@/components/BottomBar.vue';
+
 </script>
 
 <style scoped lang="scss">
