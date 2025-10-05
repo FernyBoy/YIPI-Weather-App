@@ -69,7 +69,7 @@
                     align-items: center;
 
                     border-radius: 30px;
-                    border: 3px solid $dark-blue;
+                    border: 5px solid $dark-blue;
 
                     background-color: $light-blue;
 

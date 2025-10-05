@@ -22,7 +22,7 @@
                 </div>
                 <div class="streak-point">
                     <p class="streak-point_day">Fr</p>
-                    <figure class="streak-point_circle"></figure>
+                    <!-- <figure class="streak-point_circle"></figure> -->
                 </div>
             </div>
         </div>

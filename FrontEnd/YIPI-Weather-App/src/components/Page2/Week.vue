@@ -4,37 +4,37 @@
             <div class="day">
                 <p class="name-day"> Mon </p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
-                <p class="precipitation"> 2 mm</p>
+                <p class="temperature"> 32 </p>
+                <p class="precipitation"> 8 mm</p>
             </div>
             <div class="day">
                 <p class="name-day"> Tue </p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
-                <p class="precipitation"> 2 mm</p>
+                <p class="temperature"> 30 </p>
+                <p class="precipitation"> 6 mm</p>
             </div>
             <div class="day">
                 <p class="name-day"> Wed </p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
-                <p class="precipitation"> 2 mm</p>
+                <p class="temperature"> 32 </p>
+                <p class="precipitation"> 4 mm</p>
             </div>
             <div class="day">
                 <p class="name-day"> Thu </p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
-                <p class="precipitation"> 2 mm</p>
+                <p class="temperature"> 37 </p>
+                <p class="precipitation"> 5 mm</p>
             </div>
             <div class="day">
                 <p class="name-day"> Fri </p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
-                <p class="precipitation"> 2 mm</p>
+                <p class="temperature"> 30 </p>
+                <p class="precipitation"> 1 mm</p>
             </div>
             <div class="day">
                 <p class="name-day">Sat</p>
                 <img id="partycloudy-icon" class="partycloudy" src="../../assets/img/part-cloudy-icon.png" alt="partcloudy-icon">
-                <p class="temperature"> 36 </p>
+                <p class="temperature"> 35 </p>
                 <p class="precipitation"> 2 mm</p>
             </div>
         </div>
@@ -46,6 +46,8 @@
 </script>
 
 <style scoped lang="scss">
+@import '../../assets/styles/colors.scss';
+
     .week_container
     {
         width: 100%;
@@ -66,7 +68,7 @@
             align-items: center;
             background-color: white;
             margin: 10px;
-            border: 5px solid blue;
+            border: 5px solid $dark-blue;
             
             .day{
                 width: 95%;
