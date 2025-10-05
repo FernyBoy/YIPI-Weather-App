@@ -26,11 +26,17 @@
                 </div>
             </div>
         </div>
+        <div class="climate-widgets">
+            <Week />
+            <Datas />
+        </div>
     </div>
 </template>
 
 <script setup lang="ts">
 import BottomBar from '../components/BottomBar.vue';
+import Week from '@/components/Page2/Week.vue';
+import Datas from '@/components/Page2/Datas.vue';
 </script>
 
 <style scoped lang="scss">
@@ -160,4 +166,14 @@ import BottomBar from '../components/BottomBar.vue';
         }
 
     }
+
+    .climate-widgets
+    {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-content: center;
+    }
+    
 </style>

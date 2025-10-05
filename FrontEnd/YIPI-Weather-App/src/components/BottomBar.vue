@@ -5,7 +5,7 @@
                 <img class="bottom-bar_button" src="../assets/img/trivia-icon.png" alt="trivia-icon">
             </router-link>
             <router-link to="/climate">
-                <img class="bottom-bar_button" src="../assets/img/cloud-icon.png" alt="home-icon">
+                <img id="climate-icon" class="bottom-bar_button" src="../assets/img/cloud-icon.png" alt="home-icon">
             </router-link>
             <router-link to="/profile">
                 <img id="profile-icon" class="bottom-bar_button" src="../assets/img/user-icon.png" alt="user-icon">
@@ -51,6 +51,11 @@
                 width: 50px;
 
                 cursor: pointer;
+            }
+
+            #climate-icon
+            {
+                transform: translateY(6px);
             }
 
             #profile-icon

@@ -1,5 +1,6 @@
 <template>
     <div class="streak-box_container">
+        <img src="../assets/img/yip/streak-yip.png" alt="">
         <div class="streak-box">
             <h1>4 Days</h1>
             <div class="streak-points_container">
@@ -41,8 +42,14 @@
         height: 100%;
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        img
+        {
+            width: 20%;
+        }
 
         .streak-box
         {
@@ -55,7 +62,7 @@
 
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-between;
             align-content: center;
 
             h1
@@ -91,6 +98,14 @@
                         background-color: $streak-blue;
                     }
                 }
+            }
+
+            img
+            {
+                width: 40px;
+
+                justify-self: flex-end;
+                align-self: flex-end;
             }
         }
     }
