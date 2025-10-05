@@ -44,6 +44,7 @@
         {
             width: 90%;
             aspect-ratio: 1 / 1;
+            padding-bottom: 120px;
 
             display: flex;
             flex-direction: column;
